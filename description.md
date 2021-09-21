@@ -1,5 +1,30 @@
 # Documentation
 
+## Set up
+
+For building and running the app you will need the next resources:
+
+- Kotlin, you can get it following the next [web](https://kotlinlang.org/docs/command-line.html)
+- Java11, you can easily download it in the official oracle web or use alternatives libraries such as <https://adoptopenjdk.net/>
+
+## Building the app
+
+For building it you only have to use the tool `gradelw`, for listing all the options use the tasks command.
+
+On the list you will see two important commands: `build` and `bootRun`, the first for building and the other for running the aplication.
+
+For checking if it works you can find the next page on <http://localhost:8080>:
+
+![image](https://user-images.githubusercontent.com/46299278/133663363-de39b281-131e-4c4e-8e35-e32b4c5c18a5.png)
+
+## Testing the app
+
+for testing all the unitary test run the command:
+
+```bash
+gradelw check
+```
+
 ## Controller
 
 The file `src/main/controller/HelloController.kts` contains the implementation of the controller of this web application following the MVC pattern.
