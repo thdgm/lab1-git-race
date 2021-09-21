@@ -9,7 +9,7 @@ For building and running the app you will need the next resources:
 
 ## Building the app
 
-For building it you only have to use the tool `gradelw`, for listing all the options use the tasks command.
+For building it you only have to use the tool `gradlew`, for listing all the options use the tasks command.
 
 On the list you will see two important commands: `build` and `bootRun`, the first for building and the other for running the aplication.
 
@@ -173,3 +173,17 @@ It's very simple, just follow the following steps:
     ```bash
     docker run -p 8080:8080 lab1-git-race
     ```
+
+## Alternative approach
+
+For runnicng the app inside a container run the next command:
+
+```bash
+docker run --expose=8080 --network="host" --rm -u gradle -v "$PWD":/home/gradle/project -w /home/gradle/project gradle gradle bootRun
+```
+
+If you get permision denied try to use root privileges or adding you user to the docker group for using it without sudo.
+
+```bash
+sudo usermod -aG docker $USER`
+```
