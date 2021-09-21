@@ -116,7 +116,29 @@ The file `src/test/kotlin/IntegrationTest.kt` contains two tests that checks the
 
 This ensures the webpage has a valid CSS file.
 
-## How to deploy the app with Heroku
+## Deployment 
+### Using docker-compose
+In order to run the app, you will need the following tools:
+- [docker](https://docs.docker.com/engine/install/)
+- [docker-compose](https://docs.docker.com/compose/install)
+
+Run the following command to build the images if needed and run the app:
+```
+$ docker-compose up
+```
+It might show the following error:
+```
+ERROR: Couldn't connect to Docker daemon at [...]
+```
+Try running with sudo:
+```
+$ sudo docker-compose up
+```
+
+Now you can access [the website](http://localhost:8080/) to check if everything works correctly.
+
+**Note:** By default, local port 8080 is used to deploy the app, however, it can be modified in ``docker-compose.yml``, setting ``8080:8080`` to ``<your-port>:8080``.
+### With Heroku
 
 > In order to deploy the app, you will need `git` and `heroku` CLI installed in your machine.
 
