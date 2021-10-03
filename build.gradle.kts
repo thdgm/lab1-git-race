@@ -27,7 +27,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.webjars:bootstrap:5.1.0")
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    
 }
 
 // Makes Kotlin use the JVM 11 toolchain
