@@ -64,9 +64,15 @@ class HelloController {
         return "new"
     }
 
+   /**
+    * This function acts as the handler of the HelloController.
+    */ 
+    @GetMapping("/rest")
+    fun restAPIPage(): String {
+        return "restAPIPage"
+    }
+
     /**
-     * This function acts as a handler of the HelloController.
-     *
      * **Note** 
      * 
      * The view of this handler uses Mustache as language template. 

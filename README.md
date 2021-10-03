@@ -4,7 +4,6 @@ Please, go to the [Wiki](https://github.com/UNIZAR-30246-WebEngineering/lab1-git
 
 Some ideas for obtaining a :gift: if you are the first that:
 
-- **Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)
 - **Home improvement III**: Use moder JS framework (React) and a Restful web service (no MVC server side)
 
 User name | NIA | CI |Score
@@ -26,3 +25,5 @@ User name | NIA | CI |Score
 [Pablo Jordán Lucia](https://github.com/pabloJordan24/lab1-git-race) | 757166 | [![Build Status](https://github.com/pabloJordan24/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/pabloJordan24/lab1-git-race/actions/workflows/ci.yml)
 [José Marín Díez](https://github.com/jmarindiez/lab1-git-race) | 778148 | [![Build Status](https://github.com/jmarindiez/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/jmarindiez/lab1-git-race/actions/workflows/ci.yml) | **Home improvement (mustache)** :gift:
 [Diego Marco](https://github.com/dmarcob/lab1-git-race)| 755232 | [![Build Status](https://github.com/dmarcob/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/dmarcob/lab1-git-race/actions/workflows/ci.yml) | :gift:
+[Alejandro Magallón](https://github.com/alecron/lab1-git-race) | 779354 | [![Build Status](https://github.com/alecron/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/alecron/lab1-git-race/actions/workflows/ci.yml) | - **Home improvement II** :gift:
+
